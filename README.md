@@ -5,9 +5,12 @@ Query Command Event architecture (QCE) is in similar lines to Model View Control
 
 To build a real world application services needs to perform three different operations.  
 
-a. Read the state / data
-b. Modify the state 
-c. React to events or state modifications happened
+   a. Read the state / data
+   
+   b. Modify the state 
+   
+   c. React to events or state modifications happened
+
 
 **Read the state**
 This forms the query part. This will always be a Synchronous Operation and can have async code but the client expects the data to be returned. This kind of service is usedful for fetching data based on id, return search results based on search parameters with sorting on columns etc.
