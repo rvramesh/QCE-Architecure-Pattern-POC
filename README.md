@@ -28,3 +28,4 @@ Some outstanding questions?
 2. Should validation and state transition services be separated with validation being synchrounous and state transition services being asynchronous?
 3. How do we handle transition failure in command services? May be Handle it as an event and then fire compensation commands.
 4. What conventions and standardization can be brought into architecure? like error responses, automatic firing of events, scaffolding of endpoints?
+5. Should the Command Handler services use Query services to read current state or read them directly?
